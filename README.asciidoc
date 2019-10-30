@@ -1,2 +1,18 @@
-== Ciao a
-= Tutti
+= Guida git
+
+* *Entrare su Git Bash*
+* *per vedere dove ci troviamo: export PS1="\w$ "*
+* *cd /c/Users/lorisbejdo/Desktop per entrare nel Desktop*
+* *per impostare l'username: git config --global user.name "Loris Bejdo"*
+* *per impostare l'email: git config --global user.email "Loris.Bejdo@iisgubbio.edu.it"*
+* *impostare il proxy: proxy : git config --global http.proxy http://10.1.1.254:3128,
+git config --global https.proxy http://10.1.1.254:3128*
+* *per clonare un file: git clone https://github.com/SoftwareIISGubbio/formaggio.git*
+* *per vedere lo stato: git status*
+* *prepara il file per il prossimo commit: git add README.asciidoc*
+* *per registrare i cambiamenti git commit -m""*
+* *per recuperare e integrare i dati remoti nel mio progetto git pull*
+* *per inviare i commit sul server git push*
+* *per recuperare dati dal server remoto git fetch*
+* *per confrontare i file attuali con quelli presenti nell'ultimo commit git diff*
+* *per vedere le impostazioni git config --list*
